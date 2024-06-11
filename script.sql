@@ -1,4 +1,4 @@
-DROP TABLE accounts;
+DROP TABLE IF EXISTS accounts;
 
 CREATE TABLE accounts (
     id INT AUTO_INCREMENT PRIMARY KEY,
